@@ -70,7 +70,7 @@
     video.pause();
 
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://player.vimeo.com/video/937372652';
+    iframe.src = 'https://player.vimeo.com/video/937372652?autoplay=' + (reduced.matches ? 0 : 1);
     iframe.title = '2025 In it to win it "Indian Relay Racing" on Vimeo';
     iframe.allow = 'autoplay; fullscreen; picture-in-picture';
     iframe.setAttribute('allowfullscreen', '');
