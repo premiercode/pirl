@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>PIRL | Professional Indian Relay League</title>
+<meta name="description" content="Design preview for the Professional Indian Relay League, Ringling, Oklahoma.">
+<meta name="theme-color" content="#15110E">
+<link rel="icon" href="../assets/img/pirl-logo.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&family=Instrument+Sans:wdth,wght@75..100,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>
+/* Runs before paint so the pinned layout never flashes. The scrub is an enhancement:
+   no JS, reduced motion, very short or very tall windows all get stacked stills. */
+(function (d) {
+  d.classList.add('js');
+  if (matchMedia('(prefers-reduced-motion: no-preference) and (min-height: 480px) and (max-height: 1599px)').matches) d.classList.add('scrub');
+})(document.documentElement);
+</script>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="head">
+  <a class="brand" href="#top">
+    <img src="../assets/img/pirl-logo.webp" width="466" height="492" alt="">
+    <span>Professional Indian Relay League</span>
+  </a>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="#sport">The Sport</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#tickets">Tickets</a></li>
+      <li><a href="#standings">Standings</a></li>
+      <li><a href="#league">League</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO + SIGNATURE: pinned, scroll-scrubbed exchange. Without the scrub this is intro, still, then four stacked steps. -->
+  <section class="run" aria-labelledby="page-title">
+    <div class="stage">
+      <div class="intro">
+        <h1 id="page-title">
+          <span class="h1-name">Professional Indian Relay League:</span>
+          <span class="h1-line">Ancient Spirit.</span>
+          <span class="h1-line">Relentless Speed.</span>
+        </h1>
+        <p class="intro-lede">A startup nonprofit league formed to organize and elevate Indian Relay Racing, &ldquo;a sport of speed, courage, horses, family, and Indigenous tradition.&rdquo;</p>
+        <div class="intro-actions">
+          <a class="btn btn--solid js-film" href="https://vimeo.com/937372652">Watch the film</a>
+          <span class="cue"><i aria-hidden="true"></i><span>Scroll to run the exchange</span></span>
+        </div>
+      </div>
+
+      <div class="frame">
+        <img class="frame-still" src="../assets/img/seq/f03.webp" width="960" height="540" alt="A rider in gold swings off a bay horse in yellow blinkers at a gallop, a second rider close behind." fetchpriority="high">
+        <canvas class="frame-canvas" width="960" height="540" role="img" aria-label="Frame sequence of a horse exchange: a rider in gold leaps off a bay horse, lands, disappears among the handlers and rises on a fresh horse."></canvas>
+      </div>
+      <div class="band band--run" aria-hidden="true"></div>
+
+      <h2 class="steps-title">How an exchange works</h2>
+      <ol class="steps">
+        <li class="step">
+          <img src="../assets/img/exchange-leap.webp" width="1280" height="720" loading="lazy" alt="At sunset, a rider in gold swings off a bay horse in yellow blinkers, a second rider behind.">
+          <div>
+            <h3>The exchange</h3>
+            <p>The rider races one lap bareback, returns to the exchange area and leaps off.</p>
+          </div>
+        </li>
+        <li class="step">
+          <img src="../assets/img/seq/f30.webp" width="960" height="540" loading="lazy" alt="In a crush of horses and handlers, a rider in gold rises above the backs of the horses.">
+          <div>
+            <h3>The next horse</h3>
+            <p>Then the rider mounts the next horse.</p>
+          </div>
+        </li>
+        <li class="step">
+          <img src="../assets/img/exchange-remount.webp" width="1280" height="720" loading="lazy" alt="A rider in gold up on a fresh horse, handlers around, a second team in green alongside.">
+          <div>
+            <h3>Again</h3>
+            <p>The process repeats until all three horses have completed their laps.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- LAP 1: THE SPORT -->
+  <section class="sec sec--sport" id="sport" aria-labelledby="sport-h">
+    <p class="lap"><span class="band" aria-hidden="true"></span><span class="lap-name">Lap 1</span><span class="band" aria-hidden="true"></span></p>
+
+    <div class="finish-line">
+      <figure class="plate">
+        <img src="../assets/img/rider-grey.webp" width="1280" height="720" loading="lazy" alt="A rider in gold on a grey horse at speed in low sun, a second rider behind.">
+      </figure>
+      <div class="finish-copy">
+        <h2 id="sport-h">The rider races Horse Three to the finish.</h2>
+        <p class="big">The fastest clean team wins, subject to official rules.</p>
+        <blockquote>
+          <p>&ldquo;Bareback riders and their teams sprint, leap between galloping horses, and exchange mounts at full speed in one of the most thrilling sports in North America.&rdquo;</p>
+          <footer>PIRL, on Mobridge 2026</footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="roster">
+      <figure class="plate plate--a">
+        <img src="../assets/img/handlers-wrap.webp" width="1280" height="720" loading="lazy" alt="Two handlers in blue and yellow wrap a horse's leg at the rails.">
+      </figure>
+      <div class="roles">
+        <h3>Who it takes</h3>
+        <p class="roles-note">Each Indian Relay team usually includes one rider, three horses, two holders, and a mugger, or catcher.</p>
+        <ul>
+          <li>Rider</li>
+          <li>Holders</li>
+          <li>Mugger / Catcher</li>
+          <li>Horse Owner / Trainer</li>
+          <li>Family &amp; Community</li>
+        </ul>
+      </div>
+      <figure class="plate plate--b">
+        <img src="../assets/img/horses-walk.webp" width="1280" height="720" loading="lazy" alt="A handler in green leads two horses across sand.">
+      </figure>
+      <div class="history">
+        <p>In PIRL's words, Fort Hall is <strong>&ldquo;a birthplace of modern competitive relay.&rdquo;</strong></p>
+        <p>The modern competitive sport developed in the 20th century; horse culture among Native nations goes back centuries.</p>
+      </div>
+    </div>
+
+    <div class="film">
+      <a class="film-poster js-film" href="https://vimeo.com/937372652">
+        <img src="../assets/img/rider-start.webp" width="1280" height="720" loading="lazy" alt="">
+        <span class="film-label">
+          <span class="film-play" aria-hidden="true"></span>
+          <span>Watch the film: <cite>2025 In it to win it &ldquo;Indian Relay Racing&rdquo;</cite></span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- THE EXCHANGE: RESULTS -->
+  <section class="sec sec--results" id="results" aria-labelledby="results-h">
+    <p class="lap"><span class="band" aria-hidden="true"></span><span class="lap-name">Lap 2</span><span class="band" aria-hidden="true"></span></p>
+
+    <div class="results-head">
+      <h2 id="results-h">Mobridge Indian Relay, Championship Sunday</h2>
+      <div class="results-meta">
+        <p><strong>The 7th Annual Indian Relay Races.</strong> May 30 &amp; 31, 2026, Mobridge Rodeo Grounds, Mobridge, South Dakota. Completed.</p>
+        <p>PIRL's site calls it &ldquo;the public launch of the Professional Indian Relay League.&rdquo;</p>
+        <p class="credit">As reported by DRG News, June 3, 2026</p>
+      </div>
+    </div>
+
+    <!-- PLACEHOLDER: team and rider name spellings need client confirmation. -->
+    <div class="podiums">
+      <table class="podium">
+        <caption>Men's Relay</caption>
+        <thead><tr><th scope="col">Place</th><th scope="col">Team</th><th scope="col">Rider</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><th scope="row">Brew Crew</th><td>Kalijah Old Son</td></tr>
+          <tr><td>2</td><th scope="row">Wild Fire</th><td>Joe Fast Horse</td></tr>
+          <tr><td>3</td><th scope="row">Front Line</th><td>Kaliber Pickner</td></tr>
+          <tr><td>4</td><th scope="row">Mako Sica</th><td>Cash Top Bear</td></tr>
+        </tbody>
+      </table>
+      <table class="podium">
+        <caption>Women's Relay</caption>
+        <thead><tr><th scope="col">Place</th><th scope="col">Team</th><th scope="col">Rider</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><th scope="row">Brew Crew</th><td>Arianna Holiday</td></tr>
+          <tr><td>2</td><th scope="row">OoVeeDas</th><td>Zia Washakie</td></tr>
+          <tr><td>3</td><th scope="row">Whitetail Express</th><td>Kashlyn White Tail</td></tr>
+          <tr><td>4</td><th scope="row">Mad Bear Express</th><td>Diamond Amyotte</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="classes">
+      <h3>Other class winners</h3>
+      <dl>
+        <div><dt>Junior Relay</dt><dd>Jumping Eagle</dd></div>
+        <div><dt>Maiden Race</dt><dd>Brew Crew I</dd></div>
+        <div><dt>Chiefs Race</dt><dd>Brew Crew</dd></div>
+        <div><dt>Warrior Race</dt><dd>Brew Crew</dd></div>
+        <div><dt>Pony Relay</dt><dd>Dance Eagle</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- LAP 3: SCHEDULE, TICKETS, STANDINGS -->
+  <section class="sec sec--finish" aria-label="Schedule, tickets and standings">
+    <p class="lap"><span class="band" aria-hidden="true"></span><span class="lap-name">Lap 3</span><span class="band" aria-hidden="true"></span></p>
+
+    <div class="sched" id="schedule">
+      <div class="sched-lead">
+        <h2>Schedule</h2>
+        <p class="big">No next event is announced. More dates are added here as they're confirmed.</p>
+      </div>
+      <div class="panel countdown">
+        <p class="tag">Sample layout</p>
+        <p class="countdown-event">Event name to be announced</p>
+        <ul class="clock" aria-label="Countdown, not running">
+          <li><b>&mdash;</b> Days</li>
+          <li><b>&mdash;</b> Hours</li>
+          <li><b>&mdash;</b> Minutes</li>
+          <li><b>&mdash;</b> Seconds</li>
+        </ul>
+        <p class="panel-note">The countdown starts when a date is confirmed.</p>
+      </div>
+    </div>
+
+    <div class="pair">
+      <div class="panel" id="tickets">
+        <p class="tag">Sample layout</p>
+        <h2>Tickets</h2>
+        <table class="plain">
+          <caption>Ticket types</caption>
+          <thead><tr><th scope="col">Type</th><th scope="col">Price</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Ticket type A</th><td>&mdash;</td></tr>
+            <tr><th scope="row">Ticket type B</th><td>&mdash;</td></tr>
+            <tr><th scope="row">Ticket type C</th><td>&mdash;</td></tr>
+          </tbody>
+        </table>
+        <!-- PLACEHOLDER: when connected, add reCAPTCHA v3 alongside the honeypot, and server-side handling. -->
+        <form class="notify" id="notify" action="#tickets" autocomplete="on">
+          <label for="notify-email">Email, to hear when tickets go on sale</label>
+          <div class="notify-row">
+            <input id="notify-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+            <button class="btn btn--gold" type="submit" disabled>Notify me</button>
+          </div>
+          <div class="hp" aria-hidden="true">
+            <label for="notify-company">Leave this field empty</label>
+            <input id="notify-company" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <p class="panel-note" id="notify-note">Preview only. This form isn't connected yet.</p>
+          <p class="notify-status" role="status"></p>
+        </form>
+      </div>
+
+      <div class="panel" id="standings">
+        <p class="tag">Sample layout</p>
+        <h2>Standings</h2>
+        <div class="standings-panel" id="standings-panel">
+          <table class="plain">
+            <caption>How division standings could look</caption>
+            <thead><tr><th scope="col">Team</th><th scope="col">Points</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Sample Team A</th><td>&mdash;</td></tr>
+              <tr><th scope="row">Sample Team B</th><td>&mdash;</td></tr>
+              <tr><th scope="row">Sample Team C</th><td>&mdash;</td></tr>
+              <tr><th scope="row">Sample Team D</th><td>&mdash;</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="panel-note">No scoring system has been published yet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINISH: THE LEAGUE -->
+  <section class="sec sec--league" id="league" aria-labelledby="league-h">
+    <p class="lap"><span class="band" aria-hidden="true"></span><span class="lap-name">Finish</span><span class="band" aria-hidden="true"></span></p>
+
+    <div class="league-head">
+      <p class="lead-in">PIRL calls itself</p>
+      <h2 id="league-h">&ldquo;an Indigenous-led sports property that can grow with integrity&rdquo;</h2>
+      <p class="league-sub">A national platform for Indian Relay Racing.</p>
+    </div>
+
+    <div class="divisions">
+      <h3>Divisions <span class="tag tag--plan">Planned</span></h3>
+      <p class="divisions-note">These divisions are planned and remain subject to Board approval.</p>
+      <ul class="matrix">
+        <li class="cell"><h4>Men's Premier</h4><p>The top tier of men's professional relay competition.</p></li>
+        <li class="cell cell--w"><h4>Women's Premier Relay</h4><p>Elite women's relay racing on the professional stage.</p></li>
+        <li class="cell"><h4>Men's Challenger</h4><p>A development tier and pathway toward the Premier division.</p></li>
+        <li class="cell"><h4>Women's Challenger</h4><p>A growing tier expanding opportunity in women's relay.</p></li>
+      </ul>
+      <p class="divisions-feature">PIRL treats Women's Premier Relay as a major feature of the league story from the very beginning.</p>
+    </div>
+
+    <div class="building">
+      <h3>What PIRL is building <span class="tag tag--plan">Planned</span></h3>
+      <ul class="posts">
+        <li><h4>Standardized Platform</h4><p>Consistent rules across events.</p></li>
+        <li><h4>Safety, Welfare &amp; Integrity</h4><p>Horse welfare and safety standards.</p></li>
+        <li><h4>Premier Events</h4><p>Live events across North America.</p></li>
+        <li><h4>Professional Media</h4><p>Streaming and broadcast coverage.</p></li>
+        <li><h4>Bigger Purses</h4><p>Larger sponsorship and purse opportunities.</p></li>
+        <li><h4>Championship Pathway</h4><p>&ldquo;A transparent points and championship pathway that honors the best teams in the sport.&rdquo;</p></li>
+      </ul>
+      <p class="building-note">No points, purses, or championship yet. The rulebook is under development.</p>
+    </div>
+
+    <div class="founder">
+      <div class="founder-name">
+        <h3>Founder</h3>
+        <p>Shawn Howard</p>
+      </div>
+      <div class="founder-copy">
+        <p>Shawn Howard brings experience at the intersection of Indigenous culture, equestrian performance, film, television, stunt production, live entertainment, and sports storytelling.</p>
+        <!-- PLACEHOLDER: founder heritage story, pending Shawn Howard's confirmation -->
+        <p>PIRL is being structured with a smaller voting board, officers, committees, advisors, and a nonprofit parent framework.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="band" aria-hidden="true"></div>
+  <div class="foot-grid">
+    <img src="../assets/img/pirl-logo.webp" width="466" height="492" loading="lazy" alt="PIRL logo: a rider on a galloping horse inside a ring of diamonds and chevrons">
+    <p class="foot-tag">Ancient Spirit. Relentless Speed.</p>
+    <!-- PLACEHOLDER: confirm 501(c)(3) status wording with the client. Never print EIN or PO box. -->
+    <p>Professional Indian Relay League. Ringling, Oklahoma. 501(c)(3) nonprofit. <a href="https://pirleague.com">pirleague.com</a></p>
+    <p class="foot-small">Footage: &ldquo;2025 In it to win it&rdquo; Indian Relay Racing reel, shawnrhoward on Vimeo</p>
+    <!-- PLACEHOLDER: "issuba" word note needs client sign-off before any use. Allowed once, small, apart from the founder. -->
+        <p class="foot-small"><i lang="cho">issuba</i>: Choctaw for horse, from words meaning &ldquo;like a deer.&rdquo; Source: Choctaw Nation, Iti Fabvssa.</p>
+    <p class="foot-small">Design preview. Blocks tagged Sample layout show a planned feature, not real data.</p>
+  </div>
+</footer>
+
+<dialog class="modal" id="film-modal" aria-label="Film: 2025 In it to win it, Indian Relay Racing">
+  <div class="modal-inner">
+    <div class="modal-bar">
+      <p>2025 In it to win it &ldquo;Indian Relay Racing&rdquo;</p>
+      <button class="btn btn--ghost" type="button" id="film-close">Close</button>
+    </div>
+    <div class="modal-frame" id="film-slot"></div>
+  </div>
+</dialog>
+
+<script src="main.js" defer onerror="document.documentElement.classList.remove('scrub')"></script>
+<!-- REMOVE AT LAUNCH: option switcher -->
+<style class="pv-style">html{scroll-padding-bottom:6rem}.foot{padding-bottom:6.5rem}.pv-switch a:focus-visible{outline:2px solid #faf6ef;outline-offset:-2px;box-shadow:inset 0 0 0 4px #15110e}</style>
+<nav class="pv-switch" aria-label="Design options" style="position:fixed;right:8px;bottom:8px;z-index:9999;display:flex;flex-wrap:wrap;gap:2px;max-width:calc(100vw - 16px);padding:3px;background:#15110e;border:1px solid #f2b705"><a href="../" style="color:#fff;background:transparent;padding:.45rem .6rem;min-height:24px;text-decoration:none;font:600 13px/1.3 system-ui,sans-serif">Version 1</a><a href="../option-a/" aria-current="page" style="color:#15110e;background:#f2b705;padding:.45rem .6rem;min-height:24px;text-decoration:none;font:600 13px/1.3 system-ui,sans-serif">Option A</a><a href="../option-b/" style="color:#fff;background:transparent;padding:.45rem .6rem;min-height:24px;text-decoration:none;font:600 13px/1.3 system-ui,sans-serif">Option B</a></nav>
+<!-- /REMOVE AT LAUNCH -->
+</body>
+</html>
